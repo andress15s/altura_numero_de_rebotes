@@ -10,5 +10,6 @@ n=0
 while h > q: 
   h=0.9*h
   n=n+1
-  
+  print("numero de saltos: "+ str(n) + " , altura : "+ str(h))
+
 print(str(n))
